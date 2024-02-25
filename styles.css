@@ -1,0 +1,68 @@
+
+
+body {
+  font-family: helvetica;
+  font-weight: bold;
+  background: #a3cdff;
+}
+
+.bouton {
+  display: block;
+  margin: 2rem auto;
+}
+
+ .container {
+    display: flex;
+}
+.columng {
+    flex: 1; 
+    padding: 10px; 
+    text-align : end;
+    border: 2px solid red;
+    margin-right: 5px;
+}
+.columnd {
+    flex: 1; 
+    padding: 10px; 
+    text-align : start;
+    border: 2px solid blue;
+    margin-left: 5px;
+}
+.columna {
+    flex: 1; 
+    padding: 10px; 
+    text-align : center;
+    border: 2px solid red;
+    margin-right: 10px;
+}
+.columnb {
+    flex: 1; 
+    padding: 10px; 
+    text-align : center;
+    border: 2px solid blue;
+}
+.columnc {
+    flex: 1; 
+    padding: 10px; 
+    text-align : start;
+    border: 2px solid green;
+    margin-left: 10px;
+}        
+.etu {
+	flex: 1; 
+    padding: 10px; 
+    text-align : center;
+    border: 4px solid red;
+    margin-left: 10px;
+}
+h1 {
+text-align : center;
+}
+h2 {
+text-align : center;
+}
+p{
+text-align : center;
+}
+
+

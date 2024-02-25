@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>UTClick</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="script.js" defer></script>
+
+  </head>
+
+  <body>
+    <header>
+      <h1>UTClick</h1>
+    </header>
+		<div class="container">
+		    <div class="columna">
+		    <h2>Upgrades</h2>
+		    <div id="click">
+		    Votre click vaut <span id="clickValue">1</span>
+			Prochaine amélioration à <span id="ClickUpgrade">1000</span>
+				<button id="UpgradeClick" class="bouton" style="display: none;">
+				  Upgrade le click
+				</button>
+			</div>
+		    </div>
+		    
+		    
+		    <div class="columnb">
+		    <h2>Click</h2>
+		    vous avez une production de 
+		<span id="Prod" >0</span> ECTS/sec
+		<button id="BoutonClic" class="bouton">
+		  Aller en cours
+		</button>
+
+		<p>
+		   <span id="ECTS">0</span> ECTS.
+		</p>
+		</div>
+		    <div class="columnc">
+		    <h2>Passif</h2>
+		    <div class="etu" id="etu">
+				Vous avez <span id="NbEtu"> 0 </span> étudiants
+				<br/>
+				un étudiant coute <span id="PrixEtu"> 100 </span> Ects
+				<br/>
+				<button id="AcheterEtu" class="bouton" style="display: none;">
+				  Acheter un étudiant
+				</button>							
+			</div>
+			<div class="etu" id="TD" style="display: none;">
+					Vous avez <span id="NbTD"> 0 </span> chargés de TD
+				<br/>
+				un chargés de TD coute <span id="PrixTD"> 500 </span> Ects
+				<br/>
+				<button id="AcheterTD" class="bouton" style="display: none;">
+				  Acheter un chargé de TD
+				</button>	
+			</div>
+		    </div>
+		    <br/>
+  
+    
+  </body>
+</html>
+
